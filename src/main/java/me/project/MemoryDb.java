@@ -43,4 +43,8 @@ public class MemoryDb {
                 .map(arr::get)
                 .collect(Collectors.toList());
     }
+
+    public int getSize() {
+        return arr.size();
+    }
 }
